@@ -1,0 +1,31 @@
+pandas
+numpy
+matplotlib
+plotly
+seaborn
+scipy
+scikit-learn
+imblearn
+xgboost
+catboost
+pymongo
+from_root
+evidently==0.2.8
+dill
+PyYAML
+neuro_mf
+boto3
+mypy-boto3-s3
+botocore
+fastapi
+uvicorn
+jinja2
+python-multipart
+-e .
+
+
+
+# if you are getting mongoDB erron use this cmd
+
+# pip uninstall -y pymongo motor mongoengine djongo
+# pip install -U "pymongo>=4.7" dnspython certifi
