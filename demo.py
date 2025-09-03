@@ -10,7 +10,7 @@ app.add_middleware(
     allow_methods=["*"],
     allow_headers=["*"],
 )
-from Visa.pipline.training_pipeline import TrainingPipeline
+from us_visa.pipline.training_pipeline import TrainingPipeline
 
 
 pipeline = TrainingPipeline()
