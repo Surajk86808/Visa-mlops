@@ -1,5 +1,8 @@
 from fastapi.middleware.cors import CORSMiddleware
 
+from fastapi import FastAPI
+app = FastAPI()
+
 app.add_middleware(
     CORSMiddleware,
     allow_origins=["*"],  # or restrict to your Vercel domain
